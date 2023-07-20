@@ -24,7 +24,7 @@ See <https://learn.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developme
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| folder name | Kinga Kazala, ETHZ, [https://dev.to/kkazala](https://dev.to/kkazala)  |
+| jestTestSPFxWebPart | Kinga Kazala, ETHZ, [https://dev.to/kkazala](https://dev.to/kkazala)  |
 
 ## Version history
 

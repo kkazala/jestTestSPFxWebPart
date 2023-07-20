@@ -3,6 +3,10 @@ import { RenderResult, render, screen } from '@testing-library/react';
 import React from "react";
 import HelloWorld from "../../src/webparts/helloWorld/components/HelloWorld";
 
+jest.mock('../../src/webparts/helloWorld/loc/myStrings.d.ts', () => ({
+    PropertyPaneDescription: "Description"
+}))
+
 describe("HelloWorld.tsx", () => {
     it("should render correctly", async () => {
 

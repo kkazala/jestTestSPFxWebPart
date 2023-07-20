@@ -14,7 +14,6 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
       userDisplayName
     } = this.props;
 
-
     return (
       <section className={`${styles.helloWorld} ${hasTeamsContext ? styles.teams : ''}`} data-testid="helloWorld" >
         <div className={styles.welcome}>
