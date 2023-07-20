@@ -13,7 +13,7 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
       hasTeamsContext,
       userDisplayName
     } = this.props;
-
+    console.log(strings.PropertyPaneDescription)
     return (
       <section className={`${styles.helloWorld} ${hasTeamsContext ? styles.teams : ''}`} data-testid="helloWorld" >
         <div className={styles.welcome}>
